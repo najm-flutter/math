@@ -75,56 +75,121 @@
    - **Arabic:** تُستخدم المصفوفات في الرسومات الحاسوبية، علم التشفير، الاقتصاد، والهندسة لحل المعادلات الخطية وإجراء التحويلات.
 
 
+### Lecture on Matrices for Software Engineering with Example Problems and Solutions
+
+---
+
 **1. Matrix Addition**
    - **Example Problem:**
-     - **English:** Given matrices A and B, where A =  $\begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix}$ and B = $\begin{pmatrix} 7 & 8 & 9 \\ 10 & 11 & 12 \end{pmatrix}$, find A + B.
-     - **Arabic:** 
-     
-     المعطى مصفوفتان A وB، حيث أن
-     
-      A =  $\begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix}$ 
-     
-     و
-
-      B = $\begin{pmatrix} 7 & 8 & 9 \\ 10 & 11 & 12 \end{pmatrix}$، 
-    
-     أوجد A + B.
-     
+     - **English:** Given matrices A and B, where A =  
+       ```math
+       \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix}
+       ```
+       and B = 
+       ```math
+       \begin{pmatrix} 7 & 8 & 9 \\ 10 & 11 & 12 \end{pmatrix}
+       ```
+       , find A + B.
+     - **Arabic:** المعطى مصفوفتان A وB، حيث أن A = 
+       ```math
+       \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix}
+       ```
+       و B = 
+       ```math
+       \begin{pmatrix} 7 & 8 & 9 \\ 10 & 11 & 12 \end{pmatrix}
+       ```
+       ، أوجد A + B.
    - **Solution:**
      - **English:** Add corresponding elements:  
-       $A + B = \begin{pmatrix} 1+7 & 2+8 & 3+9 \\ 4+10 & 5+11 & 6+12 \end{pmatrix} = \begin{pmatrix} 8 & 10 & 12 \\ 14 & 16 & 18 \end{pmatrix}$
+       ```math
+       A + B = \begin{pmatrix} 1+7 & 2+8 & 3+9 \\ 4+10 & 5+11 & 6+12 \end{pmatrix} = \begin{pmatrix} 8 & 10 & 12 \\ 14 & 16 & 18 \end{pmatrix}
+       ```
      - **Arabic:** جمع العناصر المقابلة:  
-       $A + B = \begin{pmatrix} 1+7 & 2+8 & 3+9 \\ 4+10 & 5+11 & 6+12 \end{pmatrix} = \begin{pmatrix} 8 & 10 & 12 \\ 14 & 16 & 18 \end{pmatrix}$
+       ```math
+       A + B = \begin{pmatrix} 1+7 & 2+8 & 3+9 \\ 4+10 & 5+11 & 6+12 \end{pmatrix} = \begin{pmatrix} 8 & 10 & 12 \\ 14 & 16 & 18 \end{pmatrix}
+       ```
 
 **2. Matrix Subtraction**
    - **Example Problem:**
-     - **English:** Given matrices C and D, where C = $\begin{pmatrix} 9 & 8 & 7 \\ 6 & 5 & 4 \end{pmatrix}$ and D = $\begin{pmatrix} 3 & 2 & 1 \\ 6 & 4 & 2 \end{pmatrix}$, find C - D.
-     - **Arabic:** المعطى مصفوفتان C وD، حيث أن C = $\begin{pmatrix} 9 & 8 & 7 \\ 6 & 5 & 4 \end{pmatrix}$ و D = $\begin{pmatrix} 3 & 2 & 1 \\ 6 & 4 & 2 \end{pmatrix}$، أوجد C - D.
+     - **English:** Given matrices C and D, where C = 
+       ```math
+       \begin{pmatrix} 9 & 8 & 7 \\ 6 & 5 & 4 \end{pmatrix}
+       ```
+       and D = 
+       ```math
+       \begin{pmatrix} 3 & 2 & 1 \\ 6 & 4 & 2 \end{pmatrix}
+       ```
+       , find C - D.
+     - **Arabic:** المعطى مصفوفتان C وD، حيث أن C = 
+       ```math
+       \begin{pmatrix} 9 & 8 & 7 \\ 6 & 5 & 4 \end{pmatrix}
+       ```
+       و D = 
+       ```math
+       \begin{pmatrix} 3 & 2 & 1 \\ 6 & 4 & 2 \end{pmatrix}
+       ```
+       ، أوجد C - D.
    - **Solution:**
      - **English:** Subtract corresponding elements:  
-       $C - D = \begin{pmatrix} 9-3 & 8-2 & 7-1 \\ 6-6 & 5-4 & 4-2 \end{pmatrix} = \begin{pmatrix} 6 & 6 & 6 \\ 0 & 1 & 2 \end{pmatrix}$
+       ```math
+       C - D = \begin{pmatrix} 9-3 & 8-2 & 7-1 \\ 6-6 & 5-4 & 4-2 \end{pmatrix} = \begin{pmatrix} 6 & 6 & 6 \\ 0 & 1 & 2 \end{pmatrix}
+       ```
      - **Arabic:** طرح العناصر المقابلة:  
-       $C - D = \begin{pmatrix} 9-3 & 8-2 & 7-1 \\ 6-6 & 5-4 & 4-2 \end{pmatrix} = \begin{pmatrix} 6 & 6 & 6 \\ 0 & 1 & 2 \end{pmatrix}$
+       ```math
+       C - D = \begin{pmatrix} 9-3 & 8-2 & 7-1 \\ 6-6 & 5-4 & 4-2 \end{pmatrix} = \begin{pmatrix} 6 & 6 & 6 \\ 0 & 1 & 2 \end{pmatrix}
+       ```
 
 **3. Matrix Multiplication**
    - **Example Problem:**
-     - **English:** Given matrices E = $\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$ and F = $\begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix}$, find the product EF.
-     - **Arabic:** المعطى مصفوفتان E و F، حيث أن E = $\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$ و F = $\begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix}$، أوجد حاصل الضرب EF.
+     - **English:** Given matrices E = 
+       ```math
+       \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}
+       ```
+        and F = 
+       ```math
+       \begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix}
+       ```
+       , find the product EF.
+     - **Arabic:** المعطى مصفوفتان E و F، حيث أن E = 
+       ```math
+       \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}
+       ```
+       و F = 
+       ```math
+       \begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix}
+       ```
+       ، أوجد حاصل الضرب EF.
    - **Solution:**
      - **English:** Multiply rows of E by columns of F:  
-       $EF = \begin{pmatrix} 1 \cdot 5 + 2 \cdot 7 & 1 \cdot 6 + 2 \cdot 8 \\ 3 \cdot 5 + 4 \cdot 7 & 3 \cdot 6 + 4 \cdot 8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}$
-     - **Arabic:** ضرب صفوف E بأعمدة F:  
-       $EF = \begin{pmatrix} 1 \cdot 5 + 2 \cdot 7 & 1 \cdot 6 + 2 \cdot 8 \\ 3 \cdot 5 + 4 \cdot 7 & 3 \cdot 6 + 4 \cdot 8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}$
+       ```math
+       EF = \begin{pmatrix} 1 \cdot 5 + 2 \cdot 7 & 1 \cdot 6 + 2 \cdot 8 \\ 3 \cdot 5 + 4 \cdot 7 & 3 \cdot 6 + 4 \cdot 8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}
+       ```
+     - **Arabic:**  ضرب صفوف E بأعمدة F:  
+       ```math
+       EF = \begin{pmatrix} 1 \cdot 5 + 2 \cdot 7 & 1 \cdot 6 + 2 \cdot 8 \\ 3 \cdot 5 + 4 \cdot 7 & 3 \cdot 6 + 4 \cdot 8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}
+       ```
 
 **4. Transpose of a Matrix**
    - **Example Problem:**
-     - **English:** Given matrix G = $\begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix}$, find the transpose G<sup>T</sup>.
-     - **Arabic:** المعطى المصفوفة G = $\begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix}$، أوجد المصفوفة المنقولة G<sup>T</sup>.
+     - **English:** Given matrix G = 
+       ```math
+       \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix}
+       ```
+       , find the transpose G^T.
+     - **Arabic:** المعطى المصفوفة G = 
+       ```math
+       \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix}
+       ```
+       ، أوجد المصفوفة المنقولة G^T.
    - **Solution:**
      - **English:** Swap rows and columns:  
-       $G^T = \begin{pmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{pmatrix}$
+       ```math
+       G^T = \begin{pmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{pmatrix}
+       ```
      - **Arabic:** تبديل الصفوف بالأعمدة:  
-       $G^T = \begin{pmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{pmatrix}$
+       ```math
+       G^T = \begin{pmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{pmatrix}
+       ```
 
 **5. Identity Matrix**
    - **Example Problem:**
@@ -132,34 +197,82 @@
      - **Arabic:** أوجد المصفوفة الوحدة I ذات الحجم 3x3.
    - **Solution:**
      - **English:** The identity matrix has 1s on the diagonal and 0s elsewhere:  
-       $I = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$
+       ```math
+       I = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}
+       ```
      - **Arabic:** المصفوفة الوحدة تحتوي على 1 في القطر و 0 في باقي الأماكن:  
-       $I = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}$
+       ```math
+       I = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}
+       ```
 
 **6. Inverse of a Matrix**
    - **Example Problem:**
-     - **English:** Given matrix H = $\begin{pmatrix} 4 & 7 \\ 2 & 6 \end{pmatrix}$, find the inverse H<sup>-1</sup> if it exists.
-     - **Arabic:** المعطى المصفوفة H = $\begin{pmatrix} 4 & 7 \\ 2 & 6 \end{pmatrix}$، أوجد المصفوفة العكسية H<sup>-1</sup> إذا كانت موجودة.
+     - **English:** Given matrix H = 
+       ```math
+       \begin{pmatrix} 4 & 7 \\ 2 & 6 \end{pmatrix}
+       ```
+       , find the inverse H^(-1) if it exists.
+     - **Arabic:** المعطى المصفوفة H = 
+       ```math
+       \begin{pmatrix} 4 & 7 \\ 2 & 6 \end{pmatrix}
+       ```
+       ، أوجد المصفوفة العكسية H^(-1) إذا كانت موجودة.
    - **Solution:**
      - **English:** The inverse is given by:  
-       $H^{-1} = \frac{1}{(4 \cdot 6 - 7 \cdot 2)} \begin{pmatrix} 6 & -7 \\ -2 & 4 \end{pmatrix} = \frac{1}{10} \begin{pmatrix} 6 & -7 \\ -2 & 4 \end{pmatrix} = \begin{pmatrix} 0.6 & -0.7 \\ -0.2 & 0.4 \end{pmatrix}$
+       ```math
+       H^(-1) = \frac{1}{(4 \cdot 6 - 7 \cdot 2)} \begin{pmatrix} 6 & -7 \\ -2 & 4 \end{pmatrix} = \frac{1}{10} \begin{pmatrix} 6 & -7 \\ -2 & 4 \end{pmatrix} = \begin{pmatrix} 0.6 & -0.7 \\ -0.2 & 0.4 \end{pmatrix}
+       ```
      - **Arabic:** العكسية تُحسب كالتالي:  
-       $H^{-1} = \frac{1}{(4 \cdot 6 - 7 \cdot 2)} \begin{pmatrix} 6 & -7 \\ -2 & 4 \end{pmatrix} = \frac{1}{10} \begin{pmatrix} 6 & -7 \\ -2 & 4 \end{pmatrix} = \begin{pmatrix} 0.6 & -0.7 \\ -0.2 & 0.4 \end{pmatrix}$
+       ```math
+       H^(-1) = \frac{1}{(4 \cdot 6 - 7 \cdot 2)} \begin{pmatrix} 6 & -7 \\ -2 & 4 \end{pmatrix} = \frac{1}{10} \begin{pmatrix} 6 & -7 \\ -2 & 4 \end{pmatrix} = \begin{pmatrix} 0.6 & -0.7 \\ -0.2 & 0.4 \end{pmatrix}
+       ```
 
 **7. Application in Solving Linear Equations**
    - **Example Problem:**
      - **English:** Solve the system of equations using matrix representation:  
-       $2x + 3y = 5$  
-       $4x + 6y = 10$
+       ```math
+       2x + 3y = 5
+       ``` 
+       ```math
+       4x + 6y = 10
+       ```
      - **Arabic:** حل نظام المعادلات باستخدام تمثيل المصفوفات:  
-       $2x + 3y = 5$  
-       $4x + 6y = 10$
+       ```math
+       2x + 3y = 5
+       ``` 
+       ```math
+       4x + 6y = 10
+       ```
    - **Solution:**
      - **English:** The system can be represented as AX = B, where  
-       $A = \begin{pmatrix} 2 & 3 \\ 4 & 6 \end{pmatrix}$, $X = \begin{pmatrix} x \\ y \end{pmatrix}$, $B = \begin{pmatrix} 5 \\ 10 \end{pmatrix}$.  
+       ```math
+       A = \begin{pmatrix} 2 & 3 \\ 4 & 6 \end{pmatrix}
+       ```
+       , 
+       ```math
+       X = \begin{pmatrix} x \\ y \end{pmatrix}
+       ```
+       , 
+       ```math
+       B = \begin{pmatrix} 5 \\ 10 \end{pmatrix}
+       ```
+       .  
        However, since the determinant of A is zero, the system has no unique solution.
      - **Arabic:** يمكن تمثيل النظام على شكل AX = B، حيث  
-       $A = \begin{pmatrix} 2 & 3 \\ 4 & 6 \end{pmatrix}$, $X = \begin{pmatrix} x \\ y \end{pmatrix}$, $B = \begin{pmatrix} 5 \\ 10 \end{pmatrix}$.  
+       ```math
+       A = \begin{pmatrix} 2 & 3 \\ 4 & 6 \end{pmatrix}
+       ```
+       ، 
+       ```math
+       X = \begin{pmatrix} x \\ y \end{pmatrix}
+       ```
+       ، 
+       ```math
+       B = \begin{pmatrix} 5 \\ 10 \end{pmatrix}
+       ```
+       .  
        لكن نظرًا لأن محدد A يساوي صفرًا، فلا يوجد حل فريد للنظام.
 
 ---
+
+These example problems illustrate key operations on matrices, providing clear solutions in both English and Arabic to aid comprehension.
