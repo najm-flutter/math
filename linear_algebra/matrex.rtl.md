@@ -17,21 +17,34 @@
 
 **3. Dimensions of a Matrix**
    - **English:** The size or dimension of a matrix is given by the number of rows (m) and the number of columns (n), denoted as m x n.
-   - **Arabic:** يتم تحديد حجم أو بُعد المصفوفة بعدد الصفوف (m) وعدد الأعمدة (n)، ويُشار إليها بـ m x n.
+   - **Arabic:** 
+   
+   يتم تحديد حجم أو بُعد المصفوفة بعدد الصفوف (m) وعدد الأعمدة (n)، ويُشار إليها بـ m x n.
 
 **4. Types of Matrices**
    - **English:** 
      - **Square Matrix:** A matrix with the same number of rows and columns (n x n).
      - **Arabic:** 
+
        - **المصفوفة المربعة:** مصفوفة لها نفس عدد الصفوف والأعمدة (n x n).
      - **Row Matrix:** A matrix with a single row (1 x n).
      - **Arabic:** 
-       - **مصفوفة صف:** مصفوفة تحتوي على صف واحد (1 x n).
+
+       - **مصفوفة صف:** 
+       مصفوفة تحتوي على صف واحد   
+              (1xn)
+
      - **Column Matrix:** A matrix with a single column (m x 1).
+
      - **Arabic:** 
+
        - **مصفوفة عمود:** مصفوفة تحتوي على عمود واحد (m x 1).
+
      - **Zero Matrix:** A matrix in which all elements are zero.
+
      - **Arabic:** 
+
+
        - **المصفوفة الصفرية:** مصفوفة تحتوي جميع عناصرها على الصفر.
 
 **5. Matrix Addition**
@@ -66,9 +79,6 @@
    - **English:** The transpose of a matrix is obtained by swapping rows with columns.
    - **Arabic:** يمكن الحصول على المصفوفة المنقولة عن طريق تبديل الصفوف بالأعمدة.
 
-**11. Inverse of a Matrix**
-   - **English:** The inverse of a matrix A is another matrix denoted by A^(-1), such that AA^(-1) = I, where I is the identity matrix.
-   - **Arabic:** المصفوفة العكسية للمصفوفة A هي مصفوفة أخرى يُشار إليها بـ A^(-1)، بحيث AA^(-1) = I، حيث I هي المصفوفة الوحدة.
 
 **12. Applications of Matrices**
    - **English:** Matrices are used in computer graphics, cryptography, economics, and engineering to solve linear equations and perform transformations.
@@ -90,7 +100,9 @@
        \begin{pmatrix} 7 & 8 & 9 \\ 10 & 11 & 12 \end{pmatrix}
        ```
        , find A + B.
-     - **Arabic:** المعطى مصفوفتان A وB، حيث أن A = 
+     - **Arabic:** 
+     
+     المعطى مصفوفتان A وB، حيث أن A = 
        ```math
        \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix}
        ```
@@ -120,7 +132,9 @@
        \begin{pmatrix} 3 & 2 & 1 \\ 6 & 4 & 2 \end{pmatrix}
        ```
        , find C - D.
-     - **Arabic:** المعطى مصفوفتان C وD، حيث أن C = 
+     - **Arabic:** 
+     
+     المعطى مصفوفتان C وD، حيث أن C = 
        ```math
        \begin{pmatrix} 9 & 8 & 7 \\ 6 & 5 & 4 \end{pmatrix}
        ```
@@ -150,7 +164,9 @@
        \begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix}
        ```
        , find the product EF.
-     - **Arabic:** المعطى مصفوفتان E و F، حيث أن E = 
+     - **Arabic:** 
+     
+     المعطى مصفوفتان E و F، حيث أن E = 
        ```math
        \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}
        ```
@@ -164,7 +180,9 @@
        ```math
        EF = \begin{pmatrix} 1 \cdot 5 + 2 \cdot 7 & 1 \cdot 6 + 2 \cdot 8 \\ 3 \cdot 5 + 4 \cdot 7 & 3 \cdot 6 + 4 \cdot 8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}
        ```
-     - **Arabic:**  ضرب صفوف E بأعمدة F:  
+     - **Arabic:**  
+     
+     ضرب صفوف E بأعمدة F:  
        ```math
        EF = \begin{pmatrix} 1 \cdot 5 + 2 \cdot 7 & 1 \cdot 6 + 2 \cdot 8 \\ 3 \cdot 5 + 4 \cdot 7 & 3 \cdot 6 + 4 \cdot 8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}
        ```
@@ -176,7 +194,9 @@
        \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix}
        ```
        , find the transpose G^T.
-     - **Arabic:** المعطى المصفوفة G = 
+     - **Arabic:** 
+     
+     المعطى المصفوفة G = 
        ```math
        \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix}
        ```
@@ -194,13 +214,17 @@
 **5. Identity Matrix**
    - **Example Problem:**
      - **English:** Find the identity matrix I of size 3x3.
-     - **Arabic:** أوجد المصفوفة الوحدة I ذات الحجم 3x3.
+     - **Arabic:**
+     
+      أوجد المصفوفة الوحدة I ذات الحجم 3x3.
    - **Solution:**
      - **English:** The identity matrix has 1s on the diagonal and 0s elsewhere:  
        ```math
        I = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}
        ```
-     - **Arabic:** المصفوفة الوحدة تحتوي على 1 في القطر و 0 في باقي الأماكن:  
+     - **Arabic:** 
+     
+     المصفوفة الوحدة تحتوي على 1 في القطر و 0 في باقي الأماكن:  
        ```math
        I = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix}
        ```
@@ -216,7 +240,9 @@
        ```math
        \begin{pmatrix} 4 & 7 \\ 2 & 6 \end{pmatrix}
        ```
-       ، أوجد المصفوفة العكسية H^(-1) إذا كانت موجودة.
+       ، 
+       
+       أوجد المصفوفة العكسية H^(-1) إذا كانت موجودة.
    - **Solution:**
      - **English:** The inverse is given by:  
        ```math
@@ -236,7 +262,8 @@
        ```math
        4x + 6y = 10
        ```
-     - **Arabic:** حل نظام المعادلات باستخدام تمثيل المصفوفات:  
+     - **Arabic:**
+      حل نظام المعادلات باستخدام تمثيل المصفوفات:  
        ```math
        2x + 3y = 5
        ``` 
@@ -258,7 +285,9 @@
        ```
        .  
        However, since the determinant of A is zero, the system has no unique solution.
-     - **Arabic:** يمكن تمثيل النظام على شكل AX = B، حيث  
+     - **Arabic:** 
+     
+     يمكن تمثيل النظام على شكل AX = B، حيث  
        ```math
        A = \begin{pmatrix} 2 & 3 \\ 4 & 6 \end{pmatrix}
        ```
@@ -275,4 +304,3 @@
 
 ---
 
-These example problems illustrate key operations on matrices, providing clear solutions in both English and Arabic to aid comprehension.
